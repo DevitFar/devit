@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to right, #2770a1, #000000);
+}
+
+.navbar {
+    background: linear-gradient(to right, #000000, #2770a1);
+    /* Degradado negro a blanco */
+    font-size: 18px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    margin: 0 10px;
+    /* Espacio entre los elementos de la nav */
+}
+
+.nav-link {
+    color: white !important;
+    /* Color blanco para los enlaces de la navbar */
+}
+
+.nav-link:hover {
+    color: black !important;
+    /* Color negro en hover para los enlaces de la navbar */
+}
+
+.logo {
+    height: 40px;
+    /* Ajusta el tamaño del logo */
+    width: auto;
+}
+
+
+.contact-section {
+    padding: 60px 0;
+    color: white;
+}
+
+.contact-info p {
+    font-size: 18px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .copyright {
+    margin-bottom: 10px;
+    /* Espacio entre el copyright y el menú */
+}
+
+footer .footer-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer .footer-menu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .footer-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: linear-gradient(to right, #000000, #2770a1);
+    /* Degradado negro a blanco */
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+}
+

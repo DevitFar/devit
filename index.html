@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="logotipo.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="index.css">
+    <title>Devit</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand ml-auto" href="#">
+            <img src="logotipo.jpg" alt="Logo" class="logo">
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="carousel-section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1 (2).jpeg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="2 (2).jpeg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="3 (2).jpeg" class="d-block w-100" alt="Imagen 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="welcome-section">
+        <div class="container text-center">
+            <img src="https://img.icons8.com/?size=100&id=6SfagDgRLE4a&format=png&color=000000" alt="Ícono de Farmacia"
+                class="welcome-icon">
+            <h1 class="welcome-title">¡Bienvenid@!</h1>
+            <p class="welcome-text">En Devit, nos especializamos en ofrecer tratamientos de medicina botulínica de la
+                más alta calidad para ayudarte a revelar tu mejor versión. Nuestro equipo de expertos está comprometido
+                con brindarte resultados naturales y personalizados, asegurando que cada procedimiento se adapte a tus
+                necesidades individuales.</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="row">
+                <!-- Imagen 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img4.jpeg" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Xeoomen</h5>
+                            <p class="card-text">Toxina Botulinica de tipo A</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Ver más</a>
+                            <a href="https://wa.me/5542304350?text=Xeoomen%20Toxina%20Botulinica%20de%20tipo%201%0A%0AImagen:%20%3Cimg%20src='https://tu-sitio.com/img4.jpeg'%20width='100'%3E"
+                                class="btn btn-whatsapp">Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img5.jpeg" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Nabota</h5>
+                            <p class="card-text">Remueve las lineas de expresion</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal2">Ver más</a>
+                            <a href="https://wa.me/5542304350?text=Nabota%20Remueve%20las%20lineas%20de%20expresion%20imagen%202%0A%0AImagen:%20%3Cimg%20src='https://tu-sitio.com/img5.jpeg'%20width='100'%3E"
+                                class="btn btn-whatsapp">Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img6.jpeg" class="card-img-top" alt="Imagen 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Dysport</h5>
+                            <p class="card-text">Toxina de tipo A</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal3">Ver más</a>
+                            <a href="https://wa.me/5542304350?text=Dysport%20Toxina%20de%20tipo%20A%20imagen%203%0A%0AImagen:%20%3Cimg%20src='https://tu-sitio.com/img6.jpeg'%20width='100'%3E"
+                                class="btn btn-whatsapp">Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="btx.jpeg" class="card-img-top" alt="Imagen 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Botox</h5>
+                            <p class="card-text">Medicina botulínica de tipo A</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal4">Ver más</a>
+                            <a href="https://wa.me/5542304350?text=Botox%20Medicina%20botulínica%20de%20tipo%20A%20imagen%204%0A%0AImagen:%20%3Cimg%20src='https://tu-sitio.com/btx.jpeg'%20width='100'%3E"
+                                class="btn btn-whatsapp">Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 5 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="linu.jpeg" class="card-img-top" alt="Imagen 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Linurase</h5>
+                            <p class="card-text">Medicina botulínica de tipo A</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal5">Ver más</a>
+                            <a href="https://wa.me/5542304350?text=Linurase%20Medicina%20botulínica%20de%20tipo%20A%20Imagen:%20%3Cimg%20src='https://tu-sitio.com/linu.jpeg'%20width='100'%3E"
+                                class="btn btn-whatsapp">Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 6 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img8.jpeg" class="card-img-top" alt="Imagen 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Dituroxal</h5>
+                            <p class="card-text">Relajante Muscular</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal6">Ver más</a>
+                            <a href="https://wa.me/5542304350?text=Dituroxal%20Relajante%20Muscular%20Imagen:%20%3Cimg%20src='https://tu-sitio.com/img8.jpeg'%20width='100'%3E"
+                                class="btn btn-whatsapp">Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modales para "Ver más" -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Xeoomen</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img4.jpeg" class="img-fluid" alt="Imagen 1">
+                    <p class="mt-2">Xeomeen es una toxina botulínica de tipo A, utilizada en tratamientos médicos y
+                        estéticos para la relajación temporal de los músculos. Se emplea principalmente para reducir la
+                        apariencia de líneas de expresión y arrugas faciales, como las arrugas del entrecejo, las patas
+                        de gallo y las líneas horizontales de la frente.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Nabota</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img5.jpeg" class="img-fluid" alt="Imagen 2">
+                    <p class="mt-2">Nabota es una toxina botulínica de tipo A, diseñada para reducir temporalmente la
+                        apariencia de arrugas y líneas de expresión en la piel. Es un producto ampliamente utilizado en
+                        el campo de la medicina estética, especialmente para tratar áreas como las líneas del entrecejo,
+                        las patas de gallo alrededor de los ojos y las líneas horizontales de la frente.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Dysport</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img6.jpeg" class="img-fluid" alt="Imagen 3">
+                    <p class="mt-2">Dysport es una toxina botulínica de tipo A utilizada en la medicina estética y en
+                        tratamientos médicos para la relajación temporal de músculos específicos. Este producto es
+                        especialmente eficaz para tratar arrugas dinámicas, aquellas que se forman debido a la repetida
+                        contracción de los músculos faciales, como las líneas de expresión en la frente, entrecejo, y
+                        alrededor de los ojos (patas de gallo).</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal4Label">Botox</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="btx.jpeg" class="img-fluid" alt="Imagen 4">
+                    <p class="mt-2">Botox es una toxina botulínica de tipo A ampliamente utilizada tanto en la medicina
+                        estética como en tratamientos médicos. En el ámbito estético, Botox es popular por su capacidad
+                        para reducir la apariencia de arrugas y líneas de expresión, particularmente en áreas como la
+                        frente, el entrecejo, y las patas de gallo alrededor de los ojos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal5Label">Linurase</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="linu.jpeg" class="img-fluid" alt="Imagen 5">
+                    <p class="mt-2">Linurase es un tratamiento basado en toxina botulínica de tipo A, similar a otros
+                        productos de su clase como Botox y Dysport. Es utilizado principalmente en la medicina estética
+                        para reducir y suavizar arrugas y líneas de expresión, proporcionando una apariencia más joven y
+                        relajada. Linurase actúa bloqueando temporalmente la señal entre los nervios y los músculos, lo
+                        que evita que los músculos se contraigan excesivamente. Esto permite que la piel se alise,
+                        reduciendo visiblemente las arrugas en las zonas tratadas.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal6Label">Dituroxal</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img8.jpeg" class="img-fluid" alt="Imagen 6">
+                    <p class="mt-2">Dituroxal es un tratamiento utilizado principalmente como relajante muscular,
+                        perteneciente a la familia de productos que contienen toxina botulínica de tipo A. Este tipo de
+                        tratamiento es conocido por su capacidad para aliviar tensiones y espasmos musculares, lo que lo
+                        convierte en una opción eficaz tanto en el campo médico como en la estética.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="copyright">
+            <p>&copy; 2024 Devit. Todos los derechos reservados.</p>
+        </div>
+        <div class="container">
+            <div class="footer-menu">
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-white">Inicio</a></li>
+                    <li><a href="contacto.php" class="text-white">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer .container {
+            text-align: center;
+        }
+
+        footer .copyright {
+            margin-bottom: 10px;
+            /* Espacio entre el copyright y el menú */
+        }
+
+        footer .footer-menu ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        footer .footer-menu ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer .footer-menu ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer .footer-menu ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+    <script>
+        $('#imageModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget); // Botón que disparó el modal
+            var title = button.data('title'); // Extraer la información de los atributos data-*
+            var imgSrc = button.data('img-src');
+            var description = button.data('description');
+
+            var modal = $(this);
+            modal.find('.modal-title').text(title);
+            modal.find('#modalImage').attr('src', imgSrc);
+            modal.find('#modalDescription').text(description);
+        });
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
